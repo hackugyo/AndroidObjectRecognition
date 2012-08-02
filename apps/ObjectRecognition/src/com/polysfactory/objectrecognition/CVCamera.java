@@ -115,7 +115,7 @@ public class CVCamera extends Activity {
 
         processor = new Processor();
 
-        String base = "/data/data/com.theveganrobot.cvcamera/files/";
+        String base = "data/data/" + getPackageName() + "/files/";
         String[] files = {"arashi.jpeg.txt", "horumon.jpeg.txt", "michael.jpeg.txt", "mrchildren.jpeg.txt", "ozaki.jpeg.txt" };
 
         for (int i = 0; i < files.length; i++) {
